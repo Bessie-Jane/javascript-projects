@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.quotes-list {
+    width: 500px;
+    margin: 50px 0;
+    margin-inline: auto;
+    border: 1px solid fuchsia;
+    padding: 0 50px;
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    /* gap: 20px; */
+}
+
+.quotes-content {
+    /* width: 300px; */
+    background-color: burlywood;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px gainsboro;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.title {
+    font-family: 'Verdana', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #1d252d;
+
+}
+
+.quote {
+    font-family: 'Arial', sans-serif;
+    margin: 20px 10px; 
+}
+
+.author {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: aquamarine;
+
+}
+
+.quote-button {
+    padding: 10px 5px;
+    border-radius: 5px;
+    width: 150px;
+    margin: 0 30%;
+    font-size: 16px;
+    font-weight: 600;
+    /* display: block; */
+    border: 2px solid burlywood;
+    color: #1d252d;
+    background-color: gainsboro;
+    font-family: 'Verdana', sans-serif;
+    cursor: pointer;
+
+}

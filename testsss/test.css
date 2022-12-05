@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.daysOfWeek {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black; 
+    width: 50%;
+    margin: 50px auto; 
+    padding: 30px;
+    gap: 10px;
+    border-radius: 6px;
+}
+
+.day {
+    color: white;
+    background-color: fuchsia;
+    border-radius: 6px;
+    padding: 3%;
+}
